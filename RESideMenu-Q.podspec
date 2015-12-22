@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name        = 'RESideMenu-Q'
   s.version     = '4.0.7'
-  s.authors     = { 'Roman Efimov' => 'romefimov@gmail.com', 'qimuya3' >= 'qimuya3@163.com' }
+  s.authors     = { 'Roman Efimov' => 'romefimov@gmail.com' }
   s.homepage    = 'https://github.com/qimuya3/RESideMenu'
   s.summary     = 'iOS 7 style side menu with parallax effect.'
   s.source      = { :git => 'https://github.com/qimuya3/RESideMenu.git',
