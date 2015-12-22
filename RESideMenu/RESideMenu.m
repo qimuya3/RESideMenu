@@ -44,8 +44,7 @@
 @implementation RESideMenu
 
 // add by qmy3
-#pragma mark - rotate Cycle
-#pragma mark -
+#pragma mark --- rotate Cycle
 -(UIInterfaceOrientationMask)supportedInterfaceOrientations{
     return [_contentViewController supportedInterfaceOrientations];
 }
