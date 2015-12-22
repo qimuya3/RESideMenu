@@ -43,6 +43,27 @@
 
 @implementation RESideMenu
 
+// add by qmy3
+#pragma mark - rotate Cycle
+#pragma mark -
+-(UIInterfaceOrientationMask)supportedInterfaceOrientations{
+    return [_contentViewController supportedInterfaceOrientations];
+}
+
+//- (BOOL)prefersStatusBarHidden
+//{
+//    // iOS7后,[[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+//    // 已经不起作用了
+//    return [_contentViewController prefersStatusBarHidden];
+////    return NO;
+//}
+
+//-(BOOL)shouldAutorotate{
+//    return  [_contentViewController shouldAutorotate];
+//}
+
+// end by qmy3
+
 #pragma mark -
 #pragma mark Instance lifecycle
 
